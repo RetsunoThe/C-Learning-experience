@@ -12,3 +12,4 @@ C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\refint\ProgramC.dll
 C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.pdb
 C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.genruntimeconfig.cache
 C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ref\ProgramC.dll
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.sourcelink.json

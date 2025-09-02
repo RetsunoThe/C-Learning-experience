@@ -13,18 +13,70 @@ namespace ProgramC
     {
         static void Main(string[] args)
         {
-
             //FileManager();
-            StartServer();
+            //StartServer();
+
+            Console.Write("Pick a number from one to five: ");
+            int vari2 = Convert.ToInt32(Console.ReadLine());
+
+            switch (vari2)
+            {
+                case 1:
+                    Console.WriteLine("One");
+                    break;
+                case 2:
+                    Console.WriteLine("Two");
+                    break;
+                case 3:
+                    Console.WriteLine("Three");
+                    break;
+                case 4:
+                    Console.WriteLine("Four");
+                    break;
+                case 5:
+                    Console.WriteLine("Five");
+                    break;
+            }
+
+            for (int i = 0; i < vari2; i++)
+            {
+                Console.WriteLine(i + 1);
+            }
+
+            
 
 
-            Console.WriteLine(Environment.UserName);
 
-            Console.WriteLine("done");
+
+
+
+
+            Console.WriteLine("---\ndone " + Environment.UserName);
+            Console.ReadLine();
             Console.ReadLine();
 
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         static void FileManager()
         {
@@ -61,8 +113,36 @@ namespace ProgramC
             File.WriteAllBytes(worldDirect11, overwrite1);
 
         }
+        static private TcpListener _tcpListener;
+        static void StartServer()
+        {
 
+
+
+            var port = 7777;
+            var hostAdress = IPAddress.Any;
+            _tcpListener = new TcpListener(hostAdress, port);
+            _tcpListener.Start();
+
+
+            byte[] buffer = new byte[256];
+            using TcpClient client = _tcpListener.AcceptTcpClient();
+            var tcpStream = client.GetStream();
+            int readTotal;
+
+
+            var senMessage = Encoding.UTF8.GetBytes("hi Nellb ");
+            tcpStream.Write(senMessage, 0, senMessage.Length);
+
+            while ((readTotal = tcpStream.Read(buffer, 0, buffer.Length)) != 0)
+            {
+
+                string incMessage = Encoding.UTF8.GetString(buffer, 0, readTotal);
+                Console.WriteLine(incMessage);
+
+
+            }
+        }
     }
-
 }
 
