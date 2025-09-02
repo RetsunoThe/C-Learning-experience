@@ -1,0 +1,14 @@
+C:\Users\ryanr\Desktop\ProgramC\bin\Debug\net9.0\ProgramC.exe
+C:\Users\ryanr\Desktop\ProgramC\bin\Debug\net9.0\ProgramC.deps.json
+C:\Users\ryanr\Desktop\ProgramC\bin\Debug\net9.0\ProgramC.runtimeconfig.json
+C:\Users\ryanr\Desktop\ProgramC\bin\Debug\net9.0\ProgramC.dll
+C:\Users\ryanr\Desktop\ProgramC\bin\Debug\net9.0\ProgramC.pdb
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.AssemblyInfoInputs.cache
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.AssemblyInfo.cs
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.csproj.CoreCompileInputs.cache
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.dll
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\refint\ProgramC.dll
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.pdb
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ProgramC.genruntimeconfig.cache
+C:\Users\ryanr\Desktop\ProgramC\obj\Debug\net9.0\ref\ProgramC.dll
